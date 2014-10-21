@@ -19,3 +19,4 @@ If you do are not running on EC2 or have not assigned IAM roles you can supply t
 ```
 docker run -i -t -e "AWS_ACCESS_KEY_ID=your-key" -e "AWS_SECRET_ACCESS_KEY=your-secret" dmopen/java-awscli
 ```
+If you need to change the default region, supply the AWS_DEFAULT_REGION environment variable
